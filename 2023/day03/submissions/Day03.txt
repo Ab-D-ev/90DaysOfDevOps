@@ -1,0 +1,93 @@
+Introduction
+Linux practice is essential for DevOps. Having Linux skills allows DevOps professionals to efficiently manage and troubleshoot server environments.🖥
+
+The majority of servers that host web applications and services use Linux, from web hosting and cloud services to enterprise applications and data centres. Its robustness, security, and cost-effectiveness make it a reliable and practical option for organizations of all sizes.📺
+
+Therefore, here are some tasks related to Linux for your practice.📖
+
+📚Tasks :
+Q.) What is the Linux Command to ->
+To view what's written in a file.
+
+
+
+
+
+ #Solution 1:
+ cat file_name
+To change the access permissions of files.
+
+
+
+
+
+ #Solution 2:
+ chmod 777 file_name
+To check which commands you have run till now.
+
+
+
+
+
+ #Solution 3:
+ history
+To remove a directory/ Folder.
+
+
+
+
+
+ #Solution 4:
+ rm file_name
+To create a fruits.txt file and to view the content.
+
+
+
+
+
+ #Solution 5:
+ nano fruits.txt #create file
+ cat fruits.txt #view file
+Add content in devops.txt (One in each line) - Apple, Mango, Banana, Cherry, Kiwi, Orange, Guava.
+
+
+
+
+ #Solution 6:
+ nano devops.txt # Add Apple, Mango, Banana, Cherry, Kiwi, Orange, Guava.
+To Show only the top three fruits from the file.
+
+
+
+
+
+ #Solution 7:
+ head -3 devops.txt
+To Show only the bottom three fruits from the file.
+
+
+
+
+
+ #Solution 8:
+ tail -3 devops.txt
+To create another file Colors.txt and to view the content.
+
+Add content in Colors.txt (One in each line) - Red, Pink, White, Black, Blue, Orange, Purple, Grey.
+
+
+
+
+
+#Solution 9 & 10:
+nano colors.txt # Add Red, Pink, White, Black, Blue, Orange, Purple, Grey.
+cat colors.txt # view the file
+To find the difference between fruits.txt and Colors.txt files.
+
+
+
+
+
+#Solution 11:
+diff colors.txt devops.txt
+💡Tip: Try to play around and get comfortable with these commands. Doing hands-on practice is the only way you can become better at Linux.
